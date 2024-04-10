@@ -1,0 +1,1 @@
+cout << "max of a and b -> " << max(a,b) << endl;
