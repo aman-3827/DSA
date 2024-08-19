@@ -303,23 +303,51 @@
 // }
 
 
-#include <iostream>
-#include <vector>
-#include <algorithm> // for std::sort
+// #include <iostream>
+// #include <vector>
+// #include <algorithm> // for std::sort
 
-int main() {
-    // Create a vector
-    std::vector<int> vec = {5, 2, 9, 3, 7};
+// int main() {
+//     // Create a vector
+//     std::vector<int> vec = {5, 2, 9, 3, 7};
 
-    // Sort the vector
-    std::sort(vec.begin(), vec.end());
+//     // Sort the vector
+//     std::sort(vec.begin(), vec.end());
 
-    // Print the sorted vector
-    std::cout << "Sorted vector: ";
-    for (int num : vec) {
-        std::cout << num << " ";
-    }
-    std::cout << std::endl;
+//     // Print the sorted vector
+//     std::cout << "Sorted vector: ";
+//     for (int num : vec) {
+//         std::cout << num << " ";
+//     }
+//     std::cout << std::endl;
 
-    return 0;
-}
+//     return 0;
+// }
+
+
+// #include<bits/stdc++.h>
+// using namespace std;
+
+// int main(){
+//     vector<int> v(5,1);
+//     for(int i :v){
+//         cout<<i<<" ";
+//     }
+//     return 0;
+// }
+
+// #include<iostream>
+// #include<bits/stdc++.h>
+// using namespace std;
+
+// int main(){
+//     stack <string> s;
+    
+//     s.push("Aman");
+//     s.push("kumar");
+//     s.push("chauhan");
+
+//     cout << "top element " << s.top() << endl;
+
+//     return 0;
+// }
